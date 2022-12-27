@@ -17,6 +17,7 @@ pillow = "*"
 optional = true
 
 [tool.poetry.group.docs.dependencies]
+smpl = ">=1.2.1"
 smpl_doc ="*"
 sphinx = "*"
 sphinx-rtd-theme = "*"
@@ -35,6 +36,7 @@ toml = "*"
 optional = true
 
 [tool.poetry.group.dev.dependencies]
+smpl = ">=1.2.1"
 pre-commit = "^2.20.0"
 pytest = "*"
 pytest-cov =  "*"
