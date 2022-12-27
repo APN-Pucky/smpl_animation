@@ -13,9 +13,11 @@ from PIL import Image
 import ipywidgets as widgets
 import itertools
 
+from smpl import doc
+
 frames = []
 
-
+@doc.deprecated("1.0.5","Will be removed from main smpl")
 def dict_product(dicts):
     """
     >>> d = {"number": [1,2], "color": ['a','b'] }
