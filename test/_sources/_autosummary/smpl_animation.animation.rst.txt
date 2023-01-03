@@ -1,4 +1,4 @@
-smpl\_animation.animation
+﻿smpl\_animation.animation
 =========================
 
 .. automodule:: smpl_animation.animation
