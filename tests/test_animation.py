@@ -3,7 +3,8 @@ import numpy as np
 import pytest
 import tqdm
 
-from smpl_animation import animation, plot, stat
+from smpl_animation import animation
+from smpl import plot, stat
 from smpl.functions import fac
 from smpl.plot import init_plot
 
