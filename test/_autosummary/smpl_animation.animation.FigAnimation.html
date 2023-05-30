@@ -1,21 +1,40 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>smpl_animation.animation.FigAnimation &mdash; smpl_animation  documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/jupyter-sphinx.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/thebelab.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/jupyter-sphinx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/thebelab.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
         <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/sphinx_highlight.js"></script>
@@ -24,35 +43,62 @@
         <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
-    <script src="../_static/js/theme.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="smpl_animation.animation.FigureCanvasAgg" href="smpl_animation.animation.FigureCanvasAgg.html" />
     <link rel="prev" title="smpl_animation.animation.list_product" href="smpl_animation.animation.list_product.html" /> 
 </head>
 
-<body class="wy-body-for-nav"> 
+<body class="wy-body-for-nav">
+
+   
   <div class="wy-grid-for-nav">
+    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
+          
 
           
+            <a href="../index.html" class="icon icon-home"> smpl_animation
           
-          <a href="../index.html" class="icon icon-home">
-            smpl_animation
+
+          
           </a>
+
+          
+            
+            
               <div class="version">
-                1.2.1-15-g3fdef9c
+                1.2.1-13-g82a5411
               </div>
+            
+          
+
+          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
               <p class="caption" role="heading"><span class="caption-text">Examples:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../example/index.html">Animations</a></li>
@@ -94,41 +140,84 @@
 <li class="toctree-l1"><a class="reference external" href="https://github.com/APN-Pucky/smpl_animation">GitHub</a></li>
 </ul>
 
+            
+          
         </div>
+        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">smpl_animation</a>
+        
       </nav>
 
+
       <div class="wy-nav-content">
+        
         <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="smpl_animation.html">smpl_animation</a></li>
-          <li class="breadcrumb-item"><a href="smpl_animation.animation.html">smpl_animation.animation</a></li>
-      <li class="breadcrumb-item active">smpl_animation.animation.FigAnimation</li>
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="smpl_animation.html">smpl_animation</a> &raquo;</li>
+        
+          <li><a href="smpl_animation.animation.html">smpl_animation.animation</a> &raquo;</li>
+        
+      <li>smpl_animation.animation.FigAnimation</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
+        
+          
             <a href="../_sources/_autosummary/smpl_animation.animation.FigAnimation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-             
+            
   <section id="smpl-animation-animation-figanimation">
-<h1>smpl_animation.animation.FigAnimation<a class="headerlink" href="#smpl-animation-animation-figanimation" title="Permalink to this heading"></a></h1>
+<h1>smpl_animation.animation.FigAnimation<a class="headerlink" href="#smpl-animation-animation-figanimation" title="Permalink to this heading">¶</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smpl_animation.animation.</span></span><span class="sig-name descname"><span class="pre">FigAnimation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">figs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frames</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/smpl_animation/animation.html#FigAnimation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#smpl_animation.animation.FigAnimation" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smpl_animation.animation.</span></span><span class="sig-name descname"><span class="pre">FigAnimation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">figs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frames</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/smpl_animation/animation.html#FigAnimation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#smpl_animation.animation.FigAnimation" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">FuncAnimation</span></code></p>
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.__init__">
-<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">figs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frames</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/smpl_animation/animation.html#FigAnimation.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#smpl_animation.animation.FigAnimation.__init__" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">figs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frames</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/smpl_animation/animation.html#FigAnimation.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#smpl_animation.animation.FigAnimation.__init__" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <p class="rubric">Methods</p>
@@ -165,34 +254,34 @@
 </table>
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.new_frame_seq">
-<span class="sig-name descname"><span class="pre">new_frame_seq</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.new_frame_seq" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">new_frame_seq</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.new_frame_seq" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a new sequence of frame information.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.new_saved_frame_seq">
-<span class="sig-name descname"><span class="pre">new_saved_frame_seq</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.new_saved_frame_seq" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">new_saved_frame_seq</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.new_saved_frame_seq" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a new sequence of saved/cached frame information.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.pause">
-<span class="sig-name descname"><span class="pre">pause</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.pause" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">pause</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.pause" title="Permalink to this definition">¶</a></dt>
 <dd><p>Pause the animation.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.resume">
-<span class="sig-name descname"><span class="pre">resume</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.resume" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">resume</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.resume" title="Permalink to this definition">¶</a></dt>
 <dd><p>Resume the animation.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.save">
-<span class="sig-name descname"><span class="pre">save</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">writer</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fps</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dpi</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">codec</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bitrate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extra_args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metadata</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extra_anim</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">savefig_kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">progress_callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.save" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">save</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">writer</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fps</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dpi</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">codec</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bitrate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extra_args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metadata</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extra_anim</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">savefig_kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">progress_callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.save" title="Permalink to this definition">¶</a></dt>
 <dd><p>Save the animation as a movie file by drawing every frame.</p>
 <section id="parameters">
-<h2>Parameters<a class="headerlink" href="#parameters" title="Permalink to this heading"></a></h2>
+<h2>Parameters<a class="headerlink" href="#parameters" title="Permalink to this heading">¶</a></h2>
 <dl>
 <dt>filename<span class="classifier">str</span></dt><dd><p>The output filename, e.g., <code class="file docutils literal notranslate"><span class="pre">mymovie.mp4</span></code>.</p>
 </dd>
@@ -246,7 +335,7 @@ not be determined. Return values may exist but are ignored.</p>
 </dl>
 </section>
 <section id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading"></a></h2>
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading">¶</a></h2>
 <p><em>fps</em>, <em>codec</em>, <em>bitrate</em>, <em>extra_args</em> and <em>metadata</em> are used to
 construct a <cite>.MovieWriter</cite> instance and can only be passed if
 <em>writer</em> is a string.  If they are passed as non-<em>None</em> and <em>writer</em>
@@ -256,7 +345,7 @@ is a <cite>.MovieWriter</cite>, a <cite>RuntimeError</cite> will be raised.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.to_html5_video">
-<span class="sig-name descname"><span class="pre">to_html5_video</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">embed_limit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.to_html5_video" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">to_html5_video</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">embed_limit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.to_html5_video" title="Permalink to this definition">¶</a></dt>
 <dd><p>Convert the animation to an HTML5 <code class="docutils literal notranslate"><span class="pre">&lt;video&gt;</span></code> tag.</p>
 <p>This saves the animation as an h264 video, encoded in base64
 directly into the HTML5 video tag. This respects <a href="#id11"><span class="problematic" id="id12">:rc:`animation.writer`</span></a>
@@ -264,7 +353,7 @@ and <a href="#id13"><span class="problematic" id="id14">:rc:`animation.bitrate`<
 <code class="docutils literal notranslate"><span class="pre">interval</span></code> to control the speed, and uses the <code class="docutils literal notranslate"><span class="pre">repeat</span></code>
 parameter to decide whether to loop.</p>
 <section id="id15">
-<h2>Parameters<a class="headerlink" href="#id15" title="Permalink to this heading"></a></h2>
+<h2>Parameters<a class="headerlink" href="#id15" title="Permalink to this heading">¶</a></h2>
 <dl class="simple">
 <dt>embed_limit<span class="classifier">float, optional</span></dt><dd><p>Limit, in MB, of the returned animation. No animation is created
 if the limit is exceeded.
@@ -273,7 +362,7 @@ Defaults to <a href="#id16"><span class="problematic" id="id17">:rc:`animation.e
 </dl>
 </section>
 <section id="returns">
-<h2>Returns<a class="headerlink" href="#returns" title="Permalink to this heading"></a></h2>
+<h2>Returns<a class="headerlink" href="#returns" title="Permalink to this heading">¶</a></h2>
 <dl class="simple">
 <dt>str</dt><dd><p>An HTML5 video tag with the animation embedded as base64 encoded
 h264 video.
@@ -286,10 +375,10 @@ If the <em>embed_limit</em> is exceeded, this returns the string
 
 <dl class="py method">
 <dt class="sig sig-object py" id="smpl_animation.animation.FigAnimation.to_jshtml">
-<span class="sig-name descname"><span class="pre">to_jshtml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fps</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">embed_frames</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.to_jshtml" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">to_jshtml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fps</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">embed_frames</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smpl_animation.animation.FigAnimation.to_jshtml" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generate HTML representation of the animation.</p>
 <section id="id18">
-<h2>Parameters<a class="headerlink" href="#id18" title="Permalink to this heading"></a></h2>
+<h2>Parameters<a class="headerlink" href="#id18" title="Permalink to this heading">¶</a></h2>
 <dl class="simple">
 <dt>fps<span class="classifier">int, optional</span></dt><dd><p>Movie frame rate (per second). If not set, the frame rate from
 the animation’s frame interval.</p>
@@ -311,33 +400,50 @@ is True, otherwise <code class="docutils literal notranslate"><span class="pre">
 
 
            </div>
+           
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="smpl_animation.animation.list_product.html" class="btn btn-neutral float-left" title="smpl_animation.animation.list_product" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="smpl_animation.animation.FigureCanvasAgg.html" class="btn btn-neutral float-right" title="smpl_animation.animation.FigureCanvasAgg" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="smpl_animation.animation.list_product.html" class="btn btn-neutral float-left" title="smpl_animation.animation.list_product" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2023, Alexander Puck Neuwirth.</p>
-  </div>
+    <p>
+        &#169; Copyright 2023, Alexander Puck Neuwirth.
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
         </div>
       </div>
+
     </section>
+
   </div>
-  <script>
+  
+
+  <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>
