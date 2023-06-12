@@ -3596,13 +3596,13 @@ files = [
 
 [[package]]
 name = "smpl"
-version = "1.2.1"
+version = "1.2.2"
 description = "SiMPLe plotting and fitting"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "smpl-1.2.1-py3-none-any.whl", hash = "sha256:99b10da1332dc6e1b7298a1a727ed5d536f45bb60ab6058b38e941f65d4cc5e8"},
-    {file = "smpl-1.2.1.tar.gz", hash = "sha256:e18d109d14557d902d238293701d04d18f5364d82b73c5ec08dd3b07fbe1180b"},
+    {file = "smpl-1.2.2-py3-none-any.whl", hash = "sha256:bff66a7996bc833800f73b315616fb5c74bbf587b5fa6df7d735114691d9fd74"},
+    {file = "smpl-1.2.2.tar.gz", hash = "sha256:01a2381723f636d3f670a523b7c0f6af85492f8ce1a6f50abaafb1ac23e88f49"},
 ]
 
 [package.dependencies]
@@ -3611,17 +3611,18 @@ matplotlib = "*"
 numpy = "*"
 pandas = ">=1.0.0"
 scipy = ">=1.7.0"
+smpl_animation = "*"
 smpl_debug = ">=1.0.5,<2.0.0"
 smpl_doc = ">=1.0.5,<2.0.0"
 smpl_io = ">=1.0.5,<2.0.0"
+smpl_parallel = ">=1.0.5,<2.0.0"
 smpl_util = ">=1.0.5,<2.0.0"
 sympy = "*"
 tqdm = "*"
 uncertainties = "*"
 
 [package.extras]
-animation = ["smpl_animation"]
-opt = ["iminuit", "smpl_animation"]
+opt = ["iminuit (<=2.18.0)"]
 
 [[package]]
 name = "smpl-debug"
@@ -3661,6 +3662,20 @@ files = [
     {file = "smpl_io-1.0.5-py3-none-any.whl", hash = "sha256:c4bafaa9612256f6bc461d37b8396d86e8b96563bac865fb6c0d3ea469706cb7"},
     {file = "smpl_io-1.0.5.tar.gz", hash = "sha256:71fe77a8ee35648729ae7352c9c15e7dbd98cac368a4ce4bc9351db8af9d95a8"},
 ]
+
+[[package]]
+name = "smpl-parallel"
+version = "1.2.1.1"
+description = "SiMPLe plotting and fitting"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "smpl_parallel-1.2.1.1-py3-none-any.whl", hash = "sha256:828849bf519793326f64957d13b636bb88d157e6ac95c99422e010f82f4c19e9"},
+    {file = "smpl_parallel-1.2.1.1.tar.gz", hash = "sha256:ddecbb7339193d4cfe98ae7d5761fa731dfe2e599559da6040836d6ee828d715"},
+]
+
+[package.dependencies]
+smpl_doc = "*"
 
 [[package]]
 name = "smpl-util"
